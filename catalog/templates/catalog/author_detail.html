@@ -1,0 +1,14 @@
+{% extends "base_generic.html" %}
+
+{% block content %}
+  <h1>Author: {{ author.first_name }}</h1>
+
+<h3>Books </h3>
+  {% for b in author.bookbyauthor %}
+<dl>{{b.title}}</dl>
+<dt>{{b.summary}}</dt>
+  {% endfor %}
+
+
+
+{% endblock %}
