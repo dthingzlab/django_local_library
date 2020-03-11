@@ -25,7 +25,7 @@ SECRET_KEY = 'r=kehf6@c26*q9no!!bd%1t^1wjz5c+p9cf#xusau3-zrlj$!7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["dthingzlibraryy.herokuapp.com"]
 
 
 # Application definition
